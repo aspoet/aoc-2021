@@ -13,12 +13,13 @@ export function one(_input: string[]): number {
 export function two(_input: string[]): number {
   const input = _input.map((x) => Number.parseInt(x, 10));
   let counter = 0;
+  let samples = 3;
   let denoisedInput = denoise(input);
 
   function denoise(array) {
     let result = [];
     for (let i = 0; i < array.length; i++) {
-      let chunk = array.slice(i, i + 3);
+      let chunk = array.slice(i, i + samples);
       result.push(chunk);
     }
     return result;
