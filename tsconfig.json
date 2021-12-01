@@ -13,10 +13,10 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "es6",
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "sourceMap": true,
     "outDir": "dist",
-    "strict": true
+    "strict": false
   },
   "exclude": [
     "node_modules"
