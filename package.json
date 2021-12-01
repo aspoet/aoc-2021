@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsc",
-    "solve": "yarn compile && ./bin/aoc"
+    "solve": "yarn compile && node ./dist/index"
   },
   "devDependencies": {
     "@types/node": "^14.14.10",
