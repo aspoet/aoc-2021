@@ -44,3 +44,4 @@ export function two(_input: string[]): number {
 
   return compareArray(denoisedInput);
 }
+
